@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-hero {
+  @apply relative h-screen overflow-hidden;
+}
+
+.carousel-bg {
+  @apply absolute inset-0 z-10;
+}
+
+.hero-overlay {
+  @apply relative z-20 text-[#fdf6f0] px-16 py-20 bg-black/40 h-full flex flex-col justify-center font-[Raleway];
+}
+
+.hero-overlay h1 {
+  @apply font-[Monotype_Corsiva] text-[50px] mb-2;
+}
+
+.hero-overlay h3 {
+  @apply text-[22px] mb-5;
+}
+
+.hero-overlay p {
+  @apply text-[16px] leading-relaxed mb-8;
+}
+
+.hero-buttons {
+  @apply flex gap-4 mb-8;
+}
+
+.btn-primary {
+  @apply bg-[#fdf6f0] text-[#3e2723] px-6 py-3 rounded-lg font-semibold;
+}
+
+.btn-secondary {
+  @apply border-2 border-[#fdf6f0] text-[#fdf6f0] px-6 py-3 rounded-lg font-semibold bg-transparent;
+}
+
+.hero-features {
+  @apply text-[16px] leading-loose;
+}

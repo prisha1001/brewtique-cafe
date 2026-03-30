@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.orders-container {
+  @apply text-center px-5 py-10;
+  background-image: url('https://i.pinimg.com/736x/c9/3e/d0/c93ed04481b97d9647bc40b9fa20b44a.jpg');
+  @apply bg-cover bg-center;
+}
+
+.orders-container h2 {
+  @apply text-[28px] mb-5 text-[#552f18];
+}
+
+.order-card {
+  @apply bg-[#fff8f0] p-5 my-5 mx-auto rounded-xl w-[80%] shadow-lg text-left;
+}
+
+.order-card h4 {
+  @apply mb-[10px] text-[#52321e];
+}
+
+.order-card ul {
+  @apply list-none p-0 m-0;
+}
+
+.order-card li {
+  @apply flex justify-between py-[6px] border-b border-dashed border-[#ccc];
+}
+
+.order-summary {
+  @apply mt-[12px] flex justify-between text-[16px] font-semibold text-[#333];
+}
+
+.status {
+  @apply text-[#007b5e];
+}

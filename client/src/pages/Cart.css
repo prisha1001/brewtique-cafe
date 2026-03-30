@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cart-container {
+  @apply text-center px-5 py-10;
+  background-image: url('https://i.pinimg.com/1200x/d1/c8/93/d1c89356cae6997d236a217bf65b79cb.jpg');
+  @apply bg-cover bg-center;
+}
+
+.cart-container h2 {
+  @apply text-[28px] mb-5 text-[#6b4f4f];
+}
+
+.cart-item {
+  @apply flex justify-between items-center bg-[#fff8f0] my-[10px] mx-auto px-5 py-3 rounded-xl w-[80%] shadow-md transition-transform duration-200 ease-in-out;
+}
+
+.cart-item:hover {
+  @apply scale-[1.01];
+}
+
+.item-name {
+  @apply font-semibold text-[16px] text-[#333] flex-1 text-left;
+}
+
+.item-price {
+  @apply text-[16px] text-[#444] mr-5;
+}
+
+.remove-btn {
+  @apply bg-[#663f27] text-white border-none px-[14px] py-[6px] rounded-full cursor-pointer font-medium shadow-sm transition-colors duration-300 ease-in-out;
+}
+
+.remove-btn:hover {
+  @apply bg-[#804f2d];
+}
+
+.place-order-btn {
+  @apply mt-[30px] bg-[#693e23] text-white border-none px-6 py-3 text-[16px] rounded-full cursor-pointer font-semibold shadow-lg transition-colors duration-300 ease-in-out;
+}
+
+.place-order-btn:hover {
+  @apply bg-[#3a2211];
+}
+
